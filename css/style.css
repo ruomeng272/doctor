@@ -1,0 +1,130 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.4rem;
+  font-size: 0.2rem; }
+  .header .back {
+    font-size: 0.16rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.15rem;
+    color: #3fbf9f; }
+    .header .back i {
+      padding-right: 0.1rem; }
+  .header h1 {
+    text-align: center;
+    line-height: 0.44rem;
+    font-size: 0.18rem;
+    font-weight: normal; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  padding-bottom: 0.15rem;
+  background-color: #eee; }
+  .content .banner {
+    height: 1.7rem;
+    background: #eee url(../images/banner/banner.jpg);
+    background-size: 100% auto;
+    padding-bottom: 0.2rem;
+    padding-top: 0.15rem;
+    box-sizing: border-box;
+    position: relative; }
+    .content .banner .info {
+      margin-top: 0.13rem;
+      color: #fff;
+      text-align: center; }
+    .content .banner .banner-top {
+      position: absolute;
+      left: 0.15rem;
+      top: 0.15rem;
+      color: #fff; }
+      .content .banner .banner-top i {
+        font-size: 0.16rem; }
+    .content .banner .topright {
+      position: absolute;
+      top: 0.15rem;
+      right: 0.15rem; }
+      .content .banner .topright i {
+        color: #fff;
+        font-size: 0.2rem; }
+    .content .banner .picture {
+      width: 0.9rem;
+      height: 0.9rem;
+      border-radius: 100%;
+      overflow: hidden;
+      margin-left: auto;
+      margin-right: auto; }
+      .content .banner .picture > img {
+        width: 100%;
+        height: 100%; }
+  .content .navilog {
+    display: -webkit-flex;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+    background-color: #fff; }
+    .content .navilog dl {
+      -webkit-flex: 1;
+      text-align: center; }
+      .content .navilog dl dt {
+        width: 0.57rem;
+        height: 0.57rem;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 0.57rem;
+        text-align: center;
+        border-radius: 100%; }
+        .content .navilog dl dt > i {
+          font-size: 0.3rem;
+          color: #fff;
+          vertical-align: middle; }
+      .content .navilog dl dd {
+        margin-top: 0.1rem; }
+  .content .centent-title {
+    padding-left: 0.15rem;
+    line-height: 0.4rem;
+    font-size: 0.14rem;
+    color: #e5bada; }
+  .content .ul-list {
+    background: #fff; }
+    .content .ul-list li {
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      border-bottom: 1px solid #ccc;
+      line-height: 0.43rem;
+      position: relative; }
+      .content .ul-list li span {
+        position: absolute;
+        right: 0.15rem; }
+        .content .ul-list li span .size {
+          font-size: 0.18rem;
+          position: relative;
+          top: 0.02rem; }
+
+.footer {
+  background-color: #fff; }
+  .footer ul {
+    display: -webkit-flex; }
+    .footer ul li {
+      -webkit-flex: 1;
+      line-height: 0.44rem;
+      text-align: center;
+      font-size: 0.18rem;
+      color: #37bc9b; }
+      .footer ul li i {
+        font-size: 0.3rem;
+        position: relative;
+        top: 0.02rem; }
+    .footer ul .active {
+      font-size: 0.2rem;
+      color: #fff;
+      background-color: #37bc9b; }
+
+/*# sourceMappingURL=style.css.map */
