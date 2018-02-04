@@ -1,3 +1,4 @@
 word
 
 this is word!
+这是一个医疗网站！
